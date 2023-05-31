@@ -20,7 +20,7 @@ steps{
 sh "mvn test"
 }
 }
-stage(''package')
+stage('package')
 stage{
 sh "mvn package"
 }
